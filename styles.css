@@ -1,0 +1,523 @@
+body *{
+  font-family: 'Quicksand', sans-serif;
+}
+
+html, h1, h2, h3, h4, h5, h6, ul{
+  margin: 0;
+  font-weight: normal;
+}
+
+html{
+  font-size: 1vw;
+}
+
+ul{
+  padding: 0;
+}
+
+.alt-font{
+  font-family: 'Questrial', sans-serif;
+}
+
+.container{
+  margin-left: 184px !important;
+  margin-right: 184px !important;
+}
+
+#main-navigation ul *{
+  display: inline-block;
+}
+
+#main-navigation ul{
+  font-size: 0;      /*This is done to avoid the gap which comes on borders while hovering....to check comment this and see the difference*/
+}
+
+#main-navigation li a{
+  font-size: calc(.7rem + 6px);
+  text-decoration: none;
+  padding: 18px 32px;
+  border-left: 1px solid rgba(40,58,215,.2);
+  color: rgba(40,58,215,.8);
+}
+
+#main-navigation li a:hover{
+  background-color: #4252F2;
+  color: white;
+}
+
+#main-navigation li a.last-nav{
+  border-right: 1px solid rgba(40,58,215,.2);
+}
+
+#landing-section{
+  background-image: url("skyline.png");
+  background-size: cover;
+  background-position: center top;
+}
+
+#landing-section div{
+  padding-bottom: 18em;
+}
+
+#landing-section *{
+  color: white;
+}
+
+#landing-section h1{
+  font-size: 5rem;
+  padding-top: 2em;
+}
+
+#landing-section p{
+  width: calc(30% + 170px);
+  line-height: 150%;
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+#landing-section button{
+  font-size: 1.4rem;
+  font-weight: 300;
+  border-radius: 500px;
+  border: none;
+  background-color: white;
+  padding: .4em 1.8rem;
+  outline: none;
+  color: #283ad7;
+}
+
+#landing-section button:hover{
+  opacity: .6;
+}
+
+#info-section *{
+  color: #2b39d9;
+}
+
+#info-section h4{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: calc(.4rem + 4px);
+  letter-spacing: 1px;
+  opacity: .4;
+  margin-top: 10em;
+}
+
+#info-section h2{
+  text-align: center;
+  font-size: calc(.8rem + 8px);
+  font-weight: 300;
+  max-width: 750px;
+  margin: 2px auto 3.5rem;
+  letter-spacing: 1px;
+}
+
+#info-section #info-blocks{
+  font-size: 0;    /* It is necessary to fit the three boxes in one line...otherwise there will be spacing between them...nd they wont come in one line */
+  margin-bottom: 6rem;
+}
+
+#info-section #info-blocks .info-block{
+  width: 33.33%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 2.2rem 1rem;
+  background-repeat: no-repeat;
+  background-size: 16%;
+  background-position: center top;
+}
+
+#info-section #info-blocks .info-block *{
+  text-align: center;
+}
+
+#info-section #info-blocks .info-block h3{
+  font-size: 1.5rem;
+}
+
+#info-section #info-blocks .info-block p{
+  font-size: .9rem;
+  line-height: 180%;
+  height: 84px;
+}
+
+#info-section #info-blocks .info-block a{
+  font-size: 1rem;
+  display: block;
+  font-weight: 700;
+}
+
+#info-section #info-blocks #support{
+  background-image: url("support.png");
+}
+
+#info-section #info-blocks #worldwide{
+  background-image: url("worldwide.png");
+}
+
+#info-section #info-blocks #cloud{
+  background-image: url("cloud.png");
+}
+
+#blog-preview {
+  background-image: url("office.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  padding-bottom: 8em;
+}
+
+#blog-preview *{
+  color: white;
+  letter-spacing: 1px;
+}
+
+#blog-preview h6{
+  padding-top: 9em;
+  font-size: .7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#blog-preview h2{
+  font-size: calc(1.5rem + 14px);
+  padding-top: .5rem;
+}
+
+#blog-preview p{
+  font-size: calc(.4rem + 8px);
+  margin-top: 1em;
+  font-weight: 300;
+  line-height: 150%;
+  width: calc(16% + 400px);
+}
+
+#blog-preview button{
+  font-size: calc(.4rem + 8px);
+  letter-spacing: .5px;
+  font-weight: 300;
+  border: none;
+  outline: none;
+  padding: .5em 2em;
+}
+
+#blog-preview button:hover{
+  opacity: .8;
+}
+
+#blog-preview #read-full{
+  background-color: #3F3F30;
+}
+
+#blog-preview #see-full-blog{
+  color: black;
+  background-color: white;
+}
+
+#pricing-section{
+  font-size: 0;
+  padding: 4rem 0 8rem;
+}
+
+#pricing-section #pricing{
+  width: 55%;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+  color: #2b39d9;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+#pricing-section #pricing h2{
+  font-size: calc(1rem + 14px);
+  margin-top: 1.5rem;
+  font-weight: 300;
+}
+
+#pricing-section #pricing h3{
+  font-size: calc(.6rem + 8px);
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+#pricing-section #pricing .chart{
+  border-radius: 4px;
+  border: 1px solid rgba(46, 48, 91, .2);
+  display: inline-block;
+  width: 28%;
+  margin: 0 .4rem;
+  box-sizing: border-box;
+}
+
+#pricing-section #pricing .chart h5{
+  font-size: calc(.6rem + 6px);
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+#pricing-section #pricing .chart h4{
+  font-size: calc(1rem + 8px);
+  text-transform: uppercase;
+  margin: .3em 0 1.4em;
+}
+
+#pricing-section #pricing .chart .small{
+  font-size: .6em;
+}
+
+#pricing-section #pricing .chart h6{
+  font-size: calc(.6rem + 4px);
+  font-weight: 300;
+  border-bottom: 1px solid rgba(43, 57, 217, .15);
+  padding: .4em 0;
+  margin: 0 2em;
+}
+
+#pricing-section #pricing .chart .hide{
+  color: transparent;
+  border-color: transparent;
+}
+
+#pricing-section #pricing .chart button{
+  font-size: calc(.6rem + 4px);
+  font-weight: 300;
+  margin: 4em 0 2em;
+  background-color: #2b39d9;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 500px;
+  padding: .4em 2.8em;
+}
+
+#pricing-section #pricing .chart button:hover{
+  opacity: .5;
+}
+
+#pricing-section img{
+  width: 40%;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+#pricing-section #pricing .chart:hover{
+  background-color: #2b39d9;
+}
+
+#pricing-section #pricing .chart:hover *{
+  color: white;
+  border-color: rgba(232, 230, 255, .2);
+}
+
+#pricing-section #pricing .chart:hover button{
+  background-color: white;
+  color: #2b39d9;
+}
+
+#testimonial-section{
+  background-color: #2e305b;
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+#testimonial-section h2{
+  font-size: calc(2rem + 12px);
+  font-weight: 300;
+  margin: 1em;
+}
+
+#testimonial-section q{
+  font-size: calc(.8rem + 6px);
+  font-weight: 300;
+  display: block;
+  margin: 0 auto;
+  line-height: 180%;
+  width: 40%;
+  quotes: none;
+}
+
+#testimonial-section cite{
+  display: block;
+  font-size: calc(.8rem + 10px);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  padding: .2em 1em 1.2em;
+  width: max-content;
+  margin: 0 auto 2em;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+#testimonial-section a{
+  display: block;
+  width: max-content;
+  color: white;
+  font-weight: 300;
+  font-size: calc(.8rem + 8px);
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+#testimonial-section .leave-a-review{
+  font-size: calc(.6rem + 6px);
+  margin-top: .4em;
+}
+
+#testimonial-section a:hover{
+  opacity: .6;
+}
+
+#newsletter-section{
+  background-color: #ededed;
+  padding: 3.5rem 0;
+}
+
+#newsletter-section div{
+  width: max-content;
+  margin: 0 auto;
+}
+
+#newsletter-section h2{
+  display: inline-block;
+  font-size: calc(1rem + 12px);
+  font-weight: 300;
+  margin-right: 2em;
+}
+
+#newsletter-section form{
+  display: inline-block;
+}
+
+#newsletter-section input{
+  padding: .3em .6em;
+  font-size: calc(.6rem + 8px);
+  outline: none;
+}
+
+#newsletter-section input::placeholder{
+  color: #2f3149;
+}
+
+#newsletter-section #email{
+  border: 2px solid #2f3139;
+  background-color: #ededed;;
+  width: 12vw;
+}
+
+#newsletter-section #submit{
+  background-color: #2f3139;
+  border: 2px solid #2f3139;
+  color: white;
+  padding-right: 4em;
+  float: right;
+  position: relative;
+  right: 2px;      /*To move its border line over the email box border line*/
+}
+
+#newsletter-section #submit:hover{
+  background-color: #ededed;
+  color: #2f3139;
+}
+
+#footer-section {
+    background-color: #2f3149;
+    padding: 3rem 0;
+}
+
+#footer-section .container {
+    font-size: 0;
+}
+
+#footer-section #branding {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40%;
+    text-align: center;
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+    padding: 3rem 0 4rem;
+}
+
+#footer-section #branding h3 {
+    font-size: calc(1.2rem + 12px);
+}
+
+#footer-section #branding p {
+    width: 76%;
+    margin: 2em auto 0;
+    font-size: calc(.4rem + 8px);
+    font-weight: 300;
+    line-height: 160%;
+}
+
+#footer-section #branding h5 {
+    font-size: calc(.6rem + 8px);
+    margin-top: 1.4em;
+}
+
+#footer-section #links {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 1.6rem 6rem;
+    width: 60%;
+    color: white;
+}
+
+#footer-section #links h3 {
+    font-size: calc(1.2rem + 8px);
+    font-weight: 300;
+    padding-bottom: 4px;
+    padding-left: 1rem;
+}
+
+#footer-section #links #social-icons {
+    background-color: white;
+    display: inline-block;
+    padding: .1rem .6rem;
+    border-radius: 500px;
+    margin-bottom: 2.4rem;
+}
+
+#footer-section #links #social-icons img {
+    width: 2.2rem;
+    padding: .4rem;
+}
+
+#footer-section #links #social-icons img:hover {
+    width: 2.4rem;
+}
+
+#footer-section #links nav {
+    padding-left: 1rem;
+}
+
+#footer-section #links ul {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+
+#footer-section #links ul h6 {
+    font-size: calc(.4rem + 8px);
+    font-weight: 700;
+    margin-bottom: .4em;
+}
+
+#footer-section #links ul a {
+    font-size: calc(.4rem + 6px);
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: .2em;
+}
+
+#footer-section #links ul a:hover {
+    opacity: .4;
+}
